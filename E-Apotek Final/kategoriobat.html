@@ -1,0 +1,519 @@
+<html lang="en" style="overflow: hidden;">
+
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Creative - Bootstrap Admin Template</title>
+
+    <!-- Bootstrap CSS -->   
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">    
+    <!-- full calendar css-->
+    <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet">
+	<link href="assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet">
+    <!-- easy pie chart-->
+    <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen">
+	
+	<!--Metis -->
+	
+	<link href="css/metisMenu.min.css" rel="stylesheet">
+ <!-- DataTables CSS -->
+    <link href="css/dataTables.bootstrap.css" rel="stylesheet">   
+   <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+	<link href="css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+    <!-- Custom styles -->
+	<link rel="stylesheet" href="css/fullcalendar.css">
+	<link href="css/widgets.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+	<link href="css/xcharts.min.css" rel=" stylesheet">	
+	<link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <script src="js/lte-ie7.js"></script>
+    <![endif]-->
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}
+  </style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter:
+  "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style>
+  <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style></head>
+
+  <body style="">
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo">E-<span class="lite">Apotek</span></a>
+            <!--logo end-->
+
+            <div class="nav search-row" id="top_menu">
+                <!--  search form start -->
+                
+                <!--  search form end -->                
+            </div>
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- task notificatoin start -->
+                   
+                   
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+      </header>      
+      <!--header end-->
+
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar" class="nav-collapse " tabindex="5000" style="overflow: hidden; outline: none;">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="index.html">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_document_alt"></i>
+                          <span>Obat</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="kategoriobat.html">Daftar Obat</a></li>    
+                      
+                      </ul>
+                  </li>       
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_desktop"></i>
+                          <span>Kasir</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="Transaksiobat.html">Transaksi Obat</a></li>
+                      </ul>
+                  </li>
+                 
+                 
+                  
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_documents_alt"></i>
+                          <span>Sejarah</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">                          
+                          <li><a class="" href="History.html">History Penjualan Obat</a></li>
+                        
+                      </ul>
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+              
+         <!--main content start-->
+      <section id="main-content">
+	  
+	  
+	  
+          <section class="wrapper">
+		  <div class="row">
+				<div class="col-lg-12">
+					<div class="col-lg-13">
+					<h3 class="page-header"><i class="fa fa-laptop"></i> Daftar Obat</h3>
+					
+					
+					<ol class="breadcrumb">
+						<li><i class="fa fa-table"></i><a href="index.html">Obat</a></li>
+						<li><i class="fa fa-laptop"></i>
+						
+						Daftar Obat
+						
+						
+						</li>						  	
+					</ol>
+					
+					
+					
+				</div>
+			</div>
+              <!-- page start-->
+          
+              </div>
+             
+                    
+                          
+						  
+						  
+<div class="panel panel-default">
+                        
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="dataTable_wrapper">
+							
+
+<div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dataTables-example_length"></div>
+<a class="btn btn-success" href="tambahobat.html" title="Bootstrap 3 themes generator">Tambah Obat</a></div><div class="col-sm-6">
+<div id="dataTables-example_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dataTables-example">
+</label></div></div></div>
+                                <div id="dataTables-example_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-12">
+								<table class="table table-striped table-bordered table-hover dataTable no-footer searchable sorting" id="dataTables-example" role="grid" aria-describedby="dataTables-example_info">
+                                    <thead>
+ <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Kode Obat: activate to sort column descending" style="width: 550px;">Nama Obat</th>
+<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Nama Obat: activate to sort column ascending" style="width: 140px;">Kode Obat</th>
+	<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Harga Obat: activate to sort column ascending" style="width: 170px;">Harga Obat</th>
+<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Keterangan: activate to sort column ascending" style="width: 180px;">Keterangan</th>
+<th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Pilihan: activate to sort column ascending" style="width: 180px;">Aksi</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        
+										
+                                        
+											
+                                        
+											
+                                        
+											
+                                        
+										
+                                        
+											
+                                        
+											
+                                        
+											
+                                        
+											
+                                        
+										
+											
+                                        
+											
+                                        
+											
+                                        
+											
+                                        
+										
+                                       
+                                    <tr class="gradeA odd" role="row">
+                                           
+										   <td>Actifed</td>
+									<td class="sorting_1">BAT001</td>
+
+                                            <td>45.000</td>
+                                            <td class="center">Obat Batuk</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="../Apotek/ObatHapus.html" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											
+											
+											 
+											
+											</tr><tr class="gradeA even" role="row">
+                                            <td>Woods</td>
+											
+											
+											
+                                            <td class="sorting_1">BAT002</td>
+
+                                            <td>20.000</td>
+                                            <td class="center">Obat Batuk</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeA odd" role="row">
+                                            <td>Entrostop</td>
+                                            <td class="sorting_1">DIA001</td>
+                                            <td>17.500</td>
+                                            <td class="center">Obat Diare</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeA even" role="row">
+
+											<td>Diatabs</td>                                        
+										<td class="sorting_1">DIA001</td>
+										
+                                            <td>7.000</td>
+                                            <td class="center">Obat Diare</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeA odd" role="row">
+                                            <td>Osagi</td>
+                                            <td class="sorting_1">GIG001</td>
+
+                                            <td>9.500</td>
+                                            <td class="center">Obat Sakit Gigi</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeA even" role="row">
+                                            <td>Mediklin Orange</td>
+
+                                            <td class="sorting_1">KUL001</td>
+                                            <td>40.000</td>
+                                            <td class="center">Obat Jerawat</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeA odd" role="row">
+                                            <td>Mediklin Ungu</td>
+
+                                            <td class="sorting_1">KUL002</td>
+                                            <td>45.000</td>
+                                            <td class="center">Obat Jerawat</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeC even" role="row">
+                                            <td>Panadol</td>
+
+                                            <td class="sorting_1">KEP001</td>
+                                            <td>15.000</td>
+                                            <td class="center">Obat Sakit Kepala</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+                                            </tr><tr class="gradeA odd" role="row">
+                                            <td>Oskadon</td>
+
+                                            <td class="sorting_1">KEP002</td>
+                                            <td>6.500</td>
+                                            <td class="center">Obat Sakit Kepala</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+											</tr><tr class="gradeX even" role="row">
+                                            <td>Betadine</td>
+
+                                            <td class="sorting_1">LUK001</td>
+                                            <td>10.000</td>
+                                            <td class="center">Obat Luka</td>
+											<td>
+											<a href="#" class="btn btn-success" role="button">Edit</a>
+											<a href="#" class="btn btn-danger" role="button">Hapus</a>
+											</td>
+
+											
+	</tr></tbody>
+       </table></div></div><div class="row"><div class="col-sm-6">
+			<div class="dataTables_info" id="dataTables-example_info" role="status" aria-live="polite">Showing 1 to 10 of 15 entries</div>
+			</div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dataTables-example_paginate">
+			<ul class="pagination">
+			<li class="paginate_button previous disabled" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_previous">
+			<a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dataTables-example" tabindex="0"><a href="#">1</a>
+			</li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="kategoriobat2.html">2</a></li>
+			<li class="paginate_button next" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_next"><a href="kategoriobat2.html">Next</a>
+			</li></ul></div></div></div></div>
+                            </div>
+                            
+                        </div>
+						
+						
+						
+						
+                        <!-- /.panel-body -->
+                    </div>
+<ul class="nav navbar-nav navbar-left">
+
+</ul>
+
+						
+                      </section>
+                  
+              
+              
+<!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+			 
+
+          
+      
+      <!--main content end-->
+  
+  <!-- container section start -->
+
+    <!-- javascripts -->
+	
+	<!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="js/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.min.js"></script>
+
+
+	
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- charts scripts -->
+    <script src="assets/jquery-knob/js/jquery.knob.js"></script>
+    <script src="js/jquery.sparkline.js" type="text/javascript"></script>
+    <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <!-- jQuery full calendar -->
+    &lt;<script src="js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
+	<script src="assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
+    <!--script for this page only-->
+    <script src="js/calendar-custom.js"></script>
+	<script src="js/jquery.rateit.min.js"></script>
+    <!-- custom select -->
+    <script src="js/jquery.customSelect.min.js"></script>
+	<script src="assets/chart-master/Chart.js"></script>
+   
+    <!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+    <!-- custom script for this page-->
+    <script src="js/sparkline-chart.js"></script>
+    <script src="js/easy-pie-chart.js"></script>
+	<script src="js/jquery-jvectormap-1.2.2.min.js"></script>
+	<script src="js/jquery-jvectormap-world-mill-en.js"></script>
+	<script src="js/xcharts.min.js"></script>
+	<script src="js/jquery.autosize.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/gdp-data.js"></script>	
+	<script src="js/morris.min.js"></script>
+	<script src="js/sparklines.js"></script>	
+	<script src="js/charts.js"></script>
+	<script src="js/jquery.slimscroll.min.js"></script>
+  <script>
+
+      //knob
+      $(function() {
+        $(".knob").knob({
+          'draw' : function () { 
+            $(this.i).val(this.cv + '%')
+          }
+        })
+      });
+
+      //carousel
+      $(document).ready(function() {
+          $("#owl-slider").owlCarousel({
+              navigation : true,
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              singleItem : true
+
+          });
+      });
+
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+	  
+	  /* ---------- Map ---------- */
+	$(function(){
+	  $('#map').vectorMap({
+	    map: 'world_mill_en',
+	    series: {
+	      regions: [{
+	        values: gdpData,
+	        scale: ['#000', '#000'],
+	        normalizeFunction: 'polynomial'
+	      }]
+	    },
+		backgroundColor: '#eef3f7',
+	    onLabelShow: function(e, el, code){
+	      el.html(el.html()+' (GDP - '+gdpData[code]+')');
+	    }
+	  });
+	});
+
+
+
+  </script>
+
+  
+
+<div id="ascrail2000" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 6px; height: 657px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div></div><div id="ascrail2000-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2001" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2001-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div></div><div class="jvectormap-label">
+</div><div id="ascrail2002" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; display: block; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 33px; float: right; width: 6px; height: 138px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div>
+<div id="ascrail2002-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div>
+</div><div id="ascrail2003" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 367px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2003-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label"></div><div id="ascrail2004" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 26px; float: right; width: 6px; height: 138px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div></div><div id="ascrail2004-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2005" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2005-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div>
+</div><div class="jvectormap-label"></div>
+<div id="ascrail2006" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 26px; float: right; width: 6px; height: 138px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2006-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2007" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div>
+</div><div id="ascrail2007-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div>
+</div><div class="jvectormap-label"></div><div id="ascrail2008" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 25px; float: right; width: 6px; height: 133px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2008-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2009" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2009-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label">
+</div>
+<div id="ascrail2010" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 42px; float: right; width: 6px; height: 455px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2010-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2011" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2011-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div></div><div class="jvectormap-label"></div><div id="ascrail2012" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 96px; float: right; width: 6px; height: 456px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2012-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2013" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; opacity: 0; display: none; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; float: right; width: 3px; height: 20px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2013-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; opacity: 0; display: none; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label"></div><div id="ascrail2014" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 6px; height: 455px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div>
+</div><div id="ascrail2014-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);">
+<div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2015" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; opacity: 0; display: none; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;">
+</div></div><div id="ascrail2015-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; opacity: 0; display: none; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label"></div><div id="ascrail2016" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 54px; float: right; width: 6px; height: 144px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2016-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2017" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2017-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label"></div><div id="ascrail2018" class="nicescroll-rails" style="width: 6px; z-index: 1000; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 6px; height: 149px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2018-hr" class="nicescroll-rails" style="height: 6px; z-index: 1000; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; opacity: 0; display: none; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 6px; width: 1366px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2019" class="nicescroll-rails" style="width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; float: right; width: 3px; height: 0px; border-radius: 10px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div id="ascrail2019-hr" class="nicescroll-rails" style="height: 3px; z-index: auto; position: fixed; cursor: default; display: none; opacity: 0; background: rgb(247, 247, 247);"><div style="position: relative; top: 0px; height: 3px; width: 0px; border-radius: 10px; left: 0px; background-color: rgb(0, 122, 255); background-clip: padding-box;"></div></div><div class="jvectormap-label"></div></body></html>
